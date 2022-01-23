@@ -18,7 +18,6 @@ function App() {
     <Router>
       <>
       <GlobalStyle/>
-    
         <Navbar view={view} />
         <DropBar open={open} view={view}/>
         <Hero slides={SliderData} />
